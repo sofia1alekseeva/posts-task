@@ -15,7 +15,6 @@ const AppRoutes = () => {
           <Route path="posts/:id" element={<PostPage />} />
         </Route>
       </Routes>
-      ;
     </>
   );
 };

@@ -4,6 +4,7 @@ import useFetch from "../../hooks/useFetch";
 import { TPost, TPosts } from "../../types/TPosts";
 import { posts } from "../../api";
 import styles from "./post-page.module.css";
+import Loader from "../../components/loader/loader";
 
 const PostPage = () => {
   const { id } = useParams();
@@ -21,6 +22,7 @@ const PostPage = () => {
 
   return (
     <div className={styles.mainBlock}>
+      {loading && <Loader extraClass={styles.loader}/>}
       {post && (
         <div key={post.id} className={styles.postWrapper}>
           <span className={styles.title}>{post.title}</span>
