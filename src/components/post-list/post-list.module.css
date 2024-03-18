@@ -13,8 +13,5 @@ ul {
 }
 
 .loader {
-  width: 70%;
-  height: 70%;
-  margin-left: 20%;
-  margin-top: 20%;
+  margin: 20%;
 }
