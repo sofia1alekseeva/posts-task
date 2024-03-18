@@ -1,0 +1,21 @@
+.mainBlock {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.postWrapper {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 3%;
+    background-color: rgb(236, 250, 255);
+    width: 70%;
+    height: 40vh;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.body {
+    font-size: 15px;
+}

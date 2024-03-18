@@ -1,0 +1,15 @@
+.mainBlock {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(236, 250, 255);
+    cursor: pointer;
+}
+
+.title {
+    font-size: 15px;
+}
+
+.body {
+    font-size: 10px;
+}

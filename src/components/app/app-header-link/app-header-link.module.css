@@ -1,0 +1,20 @@
+.navBlock {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.navBlock a{
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    width: 70pt;
+}
+
+.active a{
+    color:rgb(0, 129, 172);
+}
+
+.notActive a{
+color:rgb(0, 129, 172);
+}
