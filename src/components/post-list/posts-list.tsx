@@ -13,7 +13,7 @@ const PostsList = () => {
     <ul className={styles.list}>
       {loading && <Loader extraClass={styles.loader} />}
       {data?.map(({ id, userId, title, body }) => (
-        <PostItem title={title} id={id} body={body} userId={userId} />
+        <PostItem key={id} title={title} id={id} body={body} userId={userId} />
       ))}
     </ul>
   );
