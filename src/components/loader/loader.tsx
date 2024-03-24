@@ -10,8 +10,8 @@ const Loader: FC<ILoaderProps> = ({ extraClass }) => {
   return (
     <div className={`${styles.container} ${extraClass ? extraClass : ""}`}>
       <Oval
-        height={'60%'}
-        width={'60%'}
+        height={"60%"}
+        width={"60%"}
         color="rgb(18, 138, 96)"
         wrapperClass={styles.icon}
         visible={true}

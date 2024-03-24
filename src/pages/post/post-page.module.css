@@ -1,25 +1,25 @@
 .container {
-    margin-top: 5%;
-    margin-left: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 
 .post_wrapper {
-    border: 1px solid lightblue;
-    border-radius: 5px;
-    padding: 3%;
-    background-color: rgb(236, 250, 255);
-    width: 89%;
-    height: 35vh;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  padding: 3%;
+  background-color: rgb(236, 250, 255);
+  width: 89%;
+  height: 35vh;
 }
 
 .title {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 .body {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .loader {
-    margin: 20% 10%;
+  margin: 20% 10%;
 }

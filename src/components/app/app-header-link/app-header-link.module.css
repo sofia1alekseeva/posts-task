@@ -1,20 +1,21 @@
 .container {
-    display: flex;
-    align-items: center;
-    height: 30px;
+  display: flex;
+  align-items: center;
+  height: 5vh;
 }
 
-.container a{
-    text-decoration: none;
-    cursor: pointer;
-    text-align: center;
-    width: 70pt;
+.container a {
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  width: 80px;
+  font-size: 20px;
 }
 
-.active a{
-    color:rgb(0, 129, 172);
+.active a {
+  color: rgb(0, 129, 172);
 }
 
-.notActive a{
-color:rgb(0, 129, 172);
+.notActive a {
+  color: rgb(0, 129, 172);
 }

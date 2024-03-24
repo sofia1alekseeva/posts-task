@@ -1,7 +1,7 @@
 import { FC, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import AppHeaderLink from "../app-header-link/app-header-link";
-import styles from './app-header.module.css';
+import styles from "./app-header.module.css";
 
 const AppHeader: FC = () => {
   const location = useLocation();
@@ -15,7 +15,12 @@ const AppHeader: FC = () => {
   return (
     <header className={styles.header}>
       <div className={styles.wrapper}>
-        <AppHeaderLink to="/posts" isActive={active === "/posts"} text="Посты" icon="" />
+        <AppHeaderLink
+          to="/posts"
+          isActive={active === "/posts"}
+          text="Посты"
+          icon=""
+        />
       </div>
     </header>
   );

@@ -5,7 +5,7 @@ import { posts } from "../../api";
 import styles from "./post-page.module.css";
 import Loader from "../../components/loader/loader";
 
-const PostPage:FC = () => {
+const PostPage: FC = () => {
   const { id } = useParams();
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
