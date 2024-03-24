@@ -9,15 +9,15 @@
     padding: 3%;
     background-color: rgb(236, 250, 255);
     width: 89%;
-    height: 40vh;
+    height: 35vh;
 }
 
 .title {
-    font-size: 20px;
+    font-size: 1.4em;
 }
 
 .body {
-    font-size: 15px;
+    font-size: 1.2em;
 }
 
 .loader {
