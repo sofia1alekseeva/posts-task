@@ -3,7 +3,7 @@ import { TPost } from "../../types/TPosts";
 import styles from "./post-item.module.css";
 import { FC } from "react";
 
-const PostItem: FC<TPost> = ({ id, title, body, userId }) => {
+const PostItem: FC<TPost> = ({ id, title, body }) => {
   const navigate = useNavigate();
   const onClick = () => {
     navigate(`/posts/${id}`);
