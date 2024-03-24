@@ -1,0 +1,30 @@
+ul {
+  padding-left: 0;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 72%;
+  margin-left: 5%;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+}
+
+.loader {
+  margin: 20%;
+}
+
+.load_more_btn {
+  width: 100%;
+  height: 100%;
+  color: rgb(18, 138, 96);
+  background-color: rgb(196, 253, 233);
+  border: 1px solid rgb(138, 253, 213);
+  border-radius: 3px;
+}
+
+.load_more_btn:hover {
+  background-color: rgb(147, 255, 217);
+  cursor: pointer;
+}

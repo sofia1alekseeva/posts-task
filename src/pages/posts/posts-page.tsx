@@ -1,6 +1,7 @@
+import { FC } from "react";
 import PostsList from "../../components/post-list/posts-list"
 
-const PostsPage = () => {
+const PostsPage:FC = () => {
     return (<main>
         <PostsList/>
     </main>)

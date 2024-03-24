@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from './app-header-link.module.css'
-import { FC, ReactNode } from "react";
+import { FC } from "react";
 
 type TAppHeaderLinkProps = {
     isActive: boolean;
@@ -10,7 +10,7 @@ type TAppHeaderLinkProps = {
 }
 
 const AppHeaderLink: FC<TAppHeaderLinkProps> = ({isActive, text, icon, to}) => {
-    return (<nav className={`${isActive ? styles.active : styles.notActive} ${styles.navBlock}`}>
+    return (<nav className={`${isActive ? styles.active : styles.notActive} ${styles.container}`}>
         <div className={styles.logo}>{icon}</div>
         <Link to={to}>
             {text}

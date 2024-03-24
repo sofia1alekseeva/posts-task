@@ -1,9 +1,9 @@
-.mainBlock {
+.container {
     margin-top: 5%;
     margin-left: 5%;
 }
 
-.postWrapper {
+.post_wrapper {
     border: 1px solid lightblue;
     border-radius: 5px;
     padding: 3%;

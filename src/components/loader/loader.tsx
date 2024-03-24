@@ -8,7 +8,7 @@ interface ILoaderProps {
 
 const Loader: FC<ILoaderProps> = ({ extraClass }) => {
   return (
-    <div className={`${styles.mainBlock} ${extraClass ? extraClass : ""}`}>
+    <div className={`${styles.container} ${extraClass ? extraClass : ""}`}>
       <Oval
         height={'60%'}
         width={'60%'}
