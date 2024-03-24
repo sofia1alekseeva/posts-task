@@ -8,6 +8,7 @@ const PostItem: FC<TPost> = ({ id, title, body, userId }) => {
   const onClick = () => {
     navigate(`/posts/${id}`);
   };
+
   return (
     <li key={id} className={styles.container} onClick={onClick}>
       <span className={styles.title}>{title}</span>

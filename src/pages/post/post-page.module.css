@@ -9,8 +9,6 @@
   padding: 3%;
   background-color: rgb(236, 250, 255);
   width: 89%;
-  height: 37vh;
-  box-sizing: calc(100% - 5px);
 }
 
 .title {
